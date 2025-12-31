@@ -4,100 +4,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 html, body {
     min-height: 100vh;
 }
- a {
+
+body {
+    background-color: rgba(128, 128, 128, 0.299);
+}
+
+a {
     text-decoration: none;
     color: white;
- }
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 header {
-    background-color: #000000;
+    background-color: black;
     color: white;
-    padding: 0px 0px 12px 0px;
-    margin-bottom: 10px;
-    min-width: 500px;
-    white-space: nowrap;
+    font-family: 'Passion One';
+    text-align: center;
 }
 
 h1 {
-    padding: 40px 10px 0px 10px;
-    text-align: center;
-    font-family: 'Passion One', cursive;
-    font-size: 126px;
+    padding-top: 50px;
+    padding-bottom: 2px;
     font-variant: small-caps;
+    font-size: 600%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-display:auto;
 }
-h2 {
-    padding: 0px 10px 30px 40px;
-    text-align: center;
-    color: white;
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 2px 2px 20px 2px;
-    font-size: 16px;
     font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
-main {
-    font-family: cursive;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 1em;
+
+section {
     padding-left: 30px;
-    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: cursive;
+    font-size: 2em;
     font-weight: bold;
+    font-style: italic;
+    background-color: white;
+}
+
+section > p {
     padding-bottom: 30px;
-    max-width: 1200px;
-    min-width: 400px;
+    padding-top: 30px;
 }
-p > main {
-    padding-bottom: 10px;
-    margin-bottom: 40px;
+
+.imagem {
+    color: white;
 }
+
 .girassol {
-    max-width: 100%;
-    height: 105vh;
-    background-image: url(girassol.jpg);
-    background-size: cover;
-    margin: 0px;
-    background-repeat: no-repeat;
+    background: black url(girassol.jpg) center center/ cover no-repeat fixed;
     color: white;
-    background-position: center;
-    margin: 0px;
-    background-attachment: fixed;
-}
-.cartas {
-    max-width: 100%;
-    background: black url(letras.jpg) center center/ cover no-repeat fixed;
-    margin: 0px;
-    color: white;
-    height: 105vh;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .fundo {
-    background-color: rgba(0, 0, 0, 0.253);
-    width: 550px;
-    height: 500px;
+    background: black url(letras.jpg) center center/ cover no-repeat fixed;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
 }
+
+.carta {
+    background-color: rgba(0, 0, 0, 0.194);
+    width: 450px;
+}
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin: 0px;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding-bottom: 70px;
-}
-
-.linhas {
-    padding-bottom: 70px;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
