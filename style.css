@@ -50,18 +50,13 @@ h3 {
 
 section {
     padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-family: cursive;
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
     background-color: white;
-}
-
-section > p {
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .imagem {
@@ -80,8 +75,9 @@ section > p {
     text-shadow: 2px 2px 2px black;
 
 }
+/* Fundo da imagem de letras */
 
-.carta {
+.fundo > p {
     background-color: rgba(0, 0, 0, 0.194);
     width: 450px;
 }
